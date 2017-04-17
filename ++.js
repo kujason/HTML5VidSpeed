@@ -1,5 +1,5 @@
-javascript:(function(){
-	// Increase video speed by 0.5
+javascript:(function()
+{
 	var vid=document.getElementsByTagName("video")[0];
 	vid.playbackRate+=0.5;
 	var speedDiv = document.createElement('div');
